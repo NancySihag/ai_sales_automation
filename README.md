@@ -23,11 +23,12 @@ It simulates how modern CRM systems and AI tools assist sales teams.
 ---
 
 ## 🛠️ Tech Stack
-- Python
-- Flask / Django (if used)
-- SQLite / JSON
-- HTML/CSS
-- Basic AI/Logic automation
+- ## Tech Stack
+Python
+Flask
+SQLite
+Pandas
+REST API
 
 ---
 

@@ -15,7 +15,7 @@ with col_ctrl1:
     # UPDATED: Added "Education" to the market sector list
     industry_node = st.selectbox("🎯 SELECT TARGET MARKET SECTOR:", ["SaaS", "Healthcare", "Logistics", "Education"])
 with col_ctrl2:
-    rep_identity = st.text_input("🔑 OPERATOR SIGNATURE AUTHORITY:", value="Alex Sihag")
+    rep_identity = st.text_input("🔑 OPERATOR SIGNATURE AUTHORITY:", value="ales Automation Team")
 
 st.markdown("---")
 

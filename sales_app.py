@@ -6,7 +6,7 @@ st.set_page_config(page_title="AI Sales Automation Suite", page_icon="📈", lay
 
 # Modern clean typographical structure
 st.title("AI Sales Automation & Financial Modeling Suite 📈")
-st.caption("Next-generation data outreach hub running predictive operational ROI analytics.")
+st.caption("Sales workflow automation and simulated ROI analysis for business operations.")
 st.markdown("---")
 
 # Left Column: Operational Controls | Right Column: Operator Metadata
@@ -77,5 +77,5 @@ if st.button("🚀 EXECUTE LIVE WORKFLOW PIPELINE SIMULATION", type="primary"):
                     st.code(proposal_code.strip(), language="markdown")
 else:
     # Beautiful minimalist empty layout state
-    st.markdown("### 📡 Dashboard Ready")
-    st.info("System currently uninitialized. Select your target market parameters above and trigger the pipeline execution to run the live ROI simulators.")
+    st.markdown("### 📡 Sales Automation Dashboard Ready")
+    st.info("Select a target market and run the workflow to generate simulated ROI metrics and an executive outreach draft.")

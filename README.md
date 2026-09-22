@@ -1,4 +1,6 @@
-# AI Sales Automation
+![Tests](https://img.shields.io/badge/tests-2%20passed-brightgreen)
+
+# AI Sales Automation & Financial Modeling Suite
 
 An AI-powered sales automation platform designed to help businesses analyze leads, estimate potential value, and identify opportunities for improving sales workflows.
 

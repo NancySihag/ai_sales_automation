@@ -6,7 +6,7 @@ class AISalesAutomationEngine:
     def __init__(self, target_industry: str):
         self.industry = target_industry.strip().lower()
         
-        # High-fidelity prospective enterprise datasets
+        # Simulated demo dataset for portfolio and testing purposes
         self.TARGET_REGISTRY = [
             {
                 "name": "ApexTech Solutions", "industry": "saas", "headcount": 140,
@@ -37,7 +37,7 @@ class AISalesAutomationEngine:
         return matches if matches else self.TARGET_REGISTRY
 
     def calculate_predictive_roi(self, headcount: int, wage: int) -> Dict[str, float]:
-        """Simulates data-driven structural growth metrics and financial recoveries."""
+        """Calculates simulated ROI metrics for demonstration purposes."""
         # Engineering core formulas assuming ~3.5 hours per employee wasted weekly on bottleneck tasks
         monthly_hours_lost = int(headcount * 3.5 * 4)
         efficiency_gain_percentage = 0.78  # Our software automates 78% of the leak
@@ -50,7 +50,7 @@ class AISalesAutomationEngine:
         }
 
     def craft_executive_brief(self, node: Dict, metrics: Dict, operator: str) -> str:
-        """Assembles an optimized outbound executive proposal containing real simulated data metrics."""
+        """Generates an outreach draft using simulated ROI metrics."""
         return f"""
 Subject: Operational efficiency audit // Projected ${metrics['capital_saved_usd']:,} recovery for {node['name']}
 

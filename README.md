@@ -1,36 +1,37 @@
-
----
-
 # 📌  AI Sales Automation Platform (README)
 
-```markdown
-# 🤖 AI Sales Automation Platform
-
-## 📌 Overview
-This project is an AI-powered sales automation system designed to help manage leads, automate communication, and improve sales workflow efficiency.
-
-It simulates how modern CRM systems and AI tools assist sales teams.
-
----
+A Python-based sales automation application designed to organize lead information, analyze sales data, and automate parts of the sales workflow.
 
 ## 🚀 Features
-- Lead management system
-- Automated email/message simulation
-- Simple AI-based response logic
-- Customer tracking system
-- Dashboard-style interface (if included)
 
----
+- Lead management
+- Sales data processing
+- Automated workflow
+- AI-assisted analysis [only if actually implemented]
+- Sales metrics
+- Report generation
+- Dashboard interface [only if actually implemented]
 
 ## 🛠️ Tech Stack
-- ## Tech Stack
-Python
-Flask
-SQLite
-Pandas
-REST API
 
----
+- Python
+- [Flask/Streamlit/etc.]
+- [Pandas/etc.]
+- [SQLite/etc.]
+- [AI API if actually used]
+
+## 🔄 Application Workflow
+
+```text
+Lead Data
+    ↓
+Data Processing
+    ↓
+Sales Analysis
+    ↓
+Automation Logic
+    ↓
+Metrics & Reports
 
 ## 📂 Project Structure
 project/

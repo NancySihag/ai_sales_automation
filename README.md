@@ -1,8 +1,14 @@
 ![Tests](https://img.shields.io/badge/tests-2%20passed-brightgreen)
 
-# AI Sales Automation & Financial Modeling Suite
+# 🤖 AI Sales Automation
 
-An AI-powered sales automation platform designed to help businesses analyze leads, estimate potential value, and identify opportunities for improving sales workflows.
+An AI-powered sales intelligence dashboard that analyzes business
+data, estimates financial impact, identifies sales opportunities,
+and generates executive-ready recommendations.
+
+The application allows users to select a business scenario,
+analyze operational metrics, estimate ROI, and generate a
+structured executive brief from the results.
 
 ## 🚀 Overview
 
@@ -22,13 +28,16 @@ The project is designed as a portfolio-ready example of how Python and AI-driven
 - 🖥️ Interactive Streamlit interface
 
 ## 🔄 How It Works
+## 🔄 How It Works
 
-1. Select a target business/market category.
-2. The application processes the selected business scenario.
-3. Sales and operational metrics are calculated.
-4. Potential business impact is estimated.
-5. The application generates actionable insights.
-6. Results are displayed through an interactive dashboard.
+1. Select a business scenario
+2. Enter operational and financial inputs
+3. Analyze the current sales process
+4. Calculate potential time and cost savings
+5. Estimate ROI and annualized impact
+6. Generate an executive summary
+7. Review actionable recommendations
+
 
 ## 🛠️ Tech Stack
 

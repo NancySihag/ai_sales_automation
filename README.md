@@ -1,110 +1,144 @@
-![Tests](https://img.shields.io/badge/tests-2%20passed-brightgreen)
+# 🚀 AI Sales Automation & Financial Impact Engine
 
-# 🤖 AI Sales Automation
+A Python-based sales automation and business analysis application that demonstrates how AI-style workflow analysis can identify operational bottlenecks, estimate automation opportunities, and calculate potential financial impact.
 
-An AI-powered sales intelligence dashboard that analyzes business
-data, estimates financial impact, identifies sales opportunities,
-and generates executive-ready recommendations.
+The project combines a Python backend engine with an interactive Streamlit dashboard to simulate an end-to-end business automation workflow.
 
-The application allows users to select a business scenario,
-analyze operational metrics, estimate ROI, and generate a
-structured executive brief from the results.
+> **Note:** This is a portfolio demonstration using simulated business data and configurable assumptions. The financial figures are estimates, not actual customer results or financial guarantees.
 
-## 🚀 Overview
+---
 
-AI Sales Automation combines lead analysis, business metrics, and automated insights into a simple dashboard.
+## 🌐 Live Demo
 
-The project is designed as a portfolio-ready example of how Python and AI-driven workflows can be used to support sales and business decision-making.
+**Live Demo:** [Open the AI Sales Automation Dashboard](http://localhost:8501)
 
-## ✨ Features
+---
 
-- 📊 Interactive sales analytics dashboard
-- 🎯 Lead and opportunity analysis
-- 💰 ROI and business impact calculations
-- 🤖 AI-assisted sales insights
-- 📈 Key performance metrics
-- 📝 Automated executive-style summaries
-- 🔎 Business workflow analysis
-- 🖥️ Interactive Streamlit interface
+## 📌 Project Overview
 
-## 🔄 How It Works
-## 🔄 How It Works
+Businesses often spend significant time on repetitive manual workflows.
 
-1. Select a business scenario
-2. Enter operational and financial inputs
-3. Analyze the current sales process
-4. Calculate potential time and cost savings
-5. Estimate ROI and annualized impact
-6. Generate an executive summary
-7. Review actionable recommendations
+This project demonstrates a workflow where business data is analyzed to identify:
 
+- Operational bottlenecks
+- Affected team size
+- Estimated workload
+- Potential automation rate
+- Monthly hours that could be recovered
+- Estimated monthly labor value
+- Annualized financial impact
+- Recommended automation strategy
 
-## 🛠️ Tech Stack
+The application turns these inputs into an interactive business-impact dashboard and downloadable executive report.
 
-- Python
-- Streamlit
-- Data Analysis
-- AI/Automation
-- Business Analytics
+---
 
-## 📸 Screenshots
+## ✨ Key Features
 
-### Sales Automation Dashboard
+### 📊 Business Workflow Analysis
 
-![Sales Automation Dashboard](screenshot.png)
+- Industry-based target selection
+- Simulated business registry
+- Operational bottleneck identification
+- Affected workforce analysis
 
-## 💼 Example Use Cases
+### 🤖 Automation Opportunity Analysis
 
-### Lead Analysis
+- Configurable weekly hours lost
+- Adjustable automation rate
+- Estimated monthly workload
+- Estimated recoverable hours
+- Before/after workload comparison
 
-Analyze potential leads and identify opportunities that may require additional attention.
+### 💰 Financial Impact Modeling
 
-### Sales Workflow Optimization
+The engine calculates:
 
-Identify areas where repetitive sales processes could potentially be automated.
+- Monthly hours lost
+- Hours recovered
+- Monthly labor value
+- Annualized financial impact
 
-### Business ROI Analysis
+### 🧠 Executive Recommendation Engine
 
-Estimate potential time savings, operational impact, and financial value from automation.
+Generates an AI-style executive recommendation based on the selected automation rate.
 
-### Executive Reporting
+The recommendation can suggest:
 
-Generate concise business insights that can be used to understand the impact of a proposed automation workflow.
+- Automation evaluation
+- Phased automation
+- Targeted workflow assessment
 
-## 📊 Key Metrics
+### 📄 Downloadable Executive Report
 
-The dashboard can present metrics such as:
+Users can generate and download a text-based executive analysis containing:
 
-- Time recovered per month
-- Estimated monthly value
-- Estimated annualized savings
-- Lead or opportunity insights
-- Workflow improvement opportunities
+- Organization information
+- Operational bottleneck
+- Automation opportunity
+- Financial impact
+- Recommended action
+- Business assumptions
+- Disclaimer
 
-## ⚠️ Limitations
+### 🛡️ Input Validation
 
-- Business impact values are estimates based on the selected scenario.
-- Results should be treated as decision-support information rather than guaranteed financial outcomes.
-- AI-generated insights depend on the quality and structure of the underlying inputs.
-- The project is intended as a portfolio demonstration of sales automation concepts.
+The backend validates:
 
-## 🛣️ Future Improvements
+- Negative headcount
+- Negative hourly wage
+- Negative workload assumptions
+- Invalid automation rates
 
-- [ ] Add real CRM integration
-- [ ] Add persistent lead storage
-- [ ] Add authentication
-- [ ] Add CSV/Excel lead uploads
-- [ ] Add automated email workflows
-- [ ] Add lead scoring
-- [ ] Add historical analytics
-- [ ] Deploy the application online
+Invalid inputs raise clear `ValueError` exceptions.
 
-## 📁 Project Structure
+### 🧪 Automated Testing
+
+The backend includes automated tests covering:
+
+- Industry pipeline filtering
+- ROI calculations
+- Zero automation
+- Full automation
+- Negative headcount
+- Negative wage
+- Invalid automation rate
+- Executive recommendation generation
+
+Current test status:
+
+**8/8 tests passing**
+
+---
+
+## 🏗️ System Architecture
 
 ```text
-ai_sales_automation/
-│
-├── sales_app.py
-├── sales_engine.py
-├── screenshot.png
-└── README.md
+User
+  │
+  ▼
+Streamlit Dashboard
+  │
+  ├── Industry Selection
+  ├── Business Assumptions
+  ├── Automation Rate
+  │
+  ▼
+AI Sales Automation Engine
+  │
+  ├── Target Registry
+  ├── Workflow Analysis
+  ├── ROI Calculation
+  ├── Validation
+  └── Executive Recommendation
+  │
+  ▼
+Business Impact Dashboard
+  │
+  ├── Hours Recovered
+  ├── Automation Potential
+  ├── Monthly Impact
+  └── Annualized Impact
+  │
+  ▼
+Downloadable Executive Report
